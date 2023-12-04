@@ -1,0 +1,51 @@
+body {
+	font-family:'Courier New', Courier, monospace;
+	color: black;
+	background-color: black;
+}
+
+.white {
+	color: white
+}
+
+
+.widget-basic {
+	max-width: 200px;
+	font-size: 14px;
+	padding: 20px;
+	width: 100%;
+	border-radius: 16px;
+	border: 1px solid var(--light-pop-boder, rgba(0, 0, 0, 0.2));
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), #1D2837;
+
+	&__temp {
+		font-size: 30px;
+		font-weight: 600;
+	}
+
+	&__info {
+		color: rgba(255, 255, 255, 0.68);
+	}
+
+	&__cname {
+		font-weight: 500;
+	}
+
+	&__weather {
+		margin-top: 30px;
+		margin-bottom: 20px;
+
+		&__name {
+			text-transform: capitalize;
+			padding-top:10px;
+			white-space: nowrap;
+			font-size: 10px;
+		}
+
+		img {
+			max-width: 70px;
+		}
+
+	}
+
+}
